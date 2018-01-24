@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <bits/stdc++.h>
-#include "DataStructure.cpp"
+#include "DataStructure.h"
 using namespace std;
 int t;
 
