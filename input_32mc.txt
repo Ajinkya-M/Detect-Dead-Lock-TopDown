@@ -1,0 +1,250 @@
+32  //tot machines
+*
+2 //L1 Port
+4 //Switch
+2
+9 //W1 port
+4 //priority
+4 //C1 port
+9 
+4 //comp
+2 //L2 Port
+4 //Switch
+2
+9 //W1 port
+4 //priority
+4 //C1 port
+9 
+4 //comp
+2 //L3 Port
+4 //Switch
+2
+9 //port
+4 //priority
+4 //port
+9 
+4 //comp
+2 //L4 Port
+4 //Switch
+2
+9 //port
+4 //priority
+4 //port
+9 
+4 //comp
+*//port1//***********************************************************
+0 1
+- -BL1
++RetL1 -
+*
+Wt St E RetS
+- +BL1 - -
+- - -SLW1 -
+- - - +RetL1
+RetL1 - - -
+*
+S L
+- -RetLS1
++SSL1 -
+*
+L L1 L0 Ret S S1 S0 W Tr
+- - - - - - - +SLW1 -
+RetWS1 - - - - - - - -
+- -00W1 - - - - - - -
+- - -0W1 - - - +1W1 - -
+- - - - - - - +SSW1 -
+- - - - -RetWL1 - - - -
+- - - - - -11W1 - - -
+- - - - - - - - +BE2
+- - - -AW1 - - - - -
+*
+0 00 1 11
+- -1W1 - -
+- - +11W1 -
+- - - -0W1
++00W1 - - -
+*
+0 00 1 SW1
+- -BS1 - -
+- - +AN4 -
+- - - -BTS1
++RetS3 - - -
+*
+Wt St Comp L0 L1 RetS W0 W1 RetB
+- +BTS1 - - - - - - -
+- - -CompS1 - - - - - -
+- - - +CLS1 - - +CWS1 - -
+- - - - -SSL1 - - - -
+- - - - - +RetLS1 - - -
+- - - - - - - - -RetS1
+- - - - - - - -SSW1 -
+- - - - - - +RetWS1 - -
+-RetCompS1 - - - - - - - -
+*
+St Comp L W
+- +CompS1 - -
+- - -CLS1 -CWS1
++RetCompS1 - - -
++RetCompS1 - - -
+*//port2//***********************************************************
+0 1
+- -BL2
++RetL2 -
+*
+Wt St S RetS
+- +BL2 - -
+- - -SLS2 -
+- - - +RetSL2
+RetL2 - - -
+*
+E L
+- -RetLE2
++SEL2 -
+*
+L L1 L0 Ret E E1 E0 S Tr
+- - - - - - - +SLS2 -
+RetSE2 - - - - - - - -
+- -00S2 - - - - - - -
+- - +0S2 - - - +1S2 - -
+- - - - - - - +SES2 -
+- - - - -RetSL2 - - - -
+- - - - - -11WS2 - - -
+- - - - - - - - +BN3
+- - - -AS2 - - - - -
+*
+0 00 1 11
+- -1S2 - -
+- - +11S2 -
+- - - -0S2
++00S2 - - -
+*
+0 00 1 SW1
+- -BE2 - -
+- - +AW1 -
+- - - -BTE2
++RetE2 - - -
+*
+Wt St Comp L0 L1 RetS S0 S1 RetB
+- +BTE2 - - - - - - -
+- - -CompE2 - - - - - -
+- - - +CLE2 - - +CSE2 - -
+- - - - -SEL2 - - - -
+- - - - - +RetLE2 - - -
+- - - - - - - - -RetE2
+- - - - - - - -SES2 -
+- - - - - - +RetSE2 - -
+-RetCompE2 - - - - - - - -
+*
+St Comp L S
+- +CompE2 - -
+- - -CLE2 -CWE2
++RetCompE2 - - -
++RetCompE2 - - -
+*//port 3//***********************************************************
+0 1
+- -BL3
++RetL3 -
+*
+Wt St E RetS
+- +BL1 - -
+- - -SLW1 -
+- - - +RetL3
+Ret - - -
+*
+S L
+- -RetLS1
++SSL1 -
+*
+L L1 L0 Ret S S1 S0 W Tr
+- - - - - - - +SLW1 -
+RetWS1 - - - - - - - -
+- -00W1 - - - - - - -
+- - -0W1 - - - +1W1 - -
+- - - - - - - +SSW1 -
+- - - - -RetWL1 - - - -
+- - - - - -11W1 - - -
+- - - - - - - - +BE2
+- - - -AW1 - - - - -
+*
+0 00 1 11
+- -1W1 - -
+- - +11W1 -
+- - - -0W1
++00W1 - - -
+*
+0 00 1 SW1
+- -BS1 - -
+- - +AN4 -
+- - - -BTS1
++RetS3 - - -
+*
+Wt St Comp L0 L1 RetS W0 W1 RetB
+- +BTS1 - - - - - - -
+- - -CompS1 - - - - - -
+- - - +CLS1 - - +CWS1 - -
+- - - - -SSL1 - - - -
+- - - - - +RetLS1 - - -
+- - - - - - - - -RetS1
+- - - - - - - -SSW1 -
+- - - - - - +RetWS1 - -
+-RetCompS1 - - - - - - - -
+*
+St Comp L W
+- +CompS1 - -
+- - -CLS1 -CWS1
++RetCompS1 - - -
++RetCompS1 - - -
+*//port 4//***********************************************************
+0 1
+- -BL3
++RetL3 -
+*
+Wt St E RetS
+- +BL1 - -
+- - -SLW1 -
+- - - +RetL3
+Ret - - -
+*
+S L
+- -RetLS1
++SSL1 -
+*
+L L1 L0 Ret S S1 S0 W Tr
+- - - - - - - +SLW1 -
+RetWS1 - - - - - - - -
+- -00W1 - - - - - - -
+- - -0W1 - - - +1W1 - -
+- - - - - - - +SSW1 -
+- - - - -RetWL1 - - - -
+- - - - - -11W1 - - -
+- - - - - - - - +BE2
+- - - -AW1 - - - - -
+*
+0 00 1 11
+- -1W1 - -
+- - +11W1 -
+- - - -0W1
++00W1 - - -
+*
+0 00 1 SW1
+- -BS1 - -
+- - +AN4 -
+- - - -BTS1
++RetS3 - - -
+*
+Wt St Comp L0 L1 RetS W0 W1 RetB
+- +BTS1 - - - - - - -
+- - -CompS1 - - - - - -
+- - - +CLS1 - - +CWS1 - -
+- - - - -SSL1 - - - -
+- - - - - +RetLS1 - - -
+- - - - - - - - -RetS1
+- - - - - - - -SSW1 -
+- - - - - - +RetWS1 - -
+-RetCompS1 - - - - - - - -
+*
+St Comp L W
+- +CompS1 - -
+- - -CLS1 -CWS1
++RetCompS1 - - -
++RetCompS1 - - -
