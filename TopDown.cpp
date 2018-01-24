@@ -1,8 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <bits/stdc++.h>
+#include "DataStructure.cpp"
 using namespace std;
 
+
+/*
 typedef struct Graph{
     int no_of_states;
     string state_name[10];
@@ -18,6 +21,8 @@ typedef struct Topo_graph{
   int no_of_nodes;
   vector< vector <int> > t;
 }Topo;
+
+*/
 
 int main()
 {
