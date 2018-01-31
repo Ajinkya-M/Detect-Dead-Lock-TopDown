@@ -141,6 +141,7 @@ GlobalState * Explore_State(GlobalState *G, Node *n, Topo *topo){//explore globa
 
         if(n[machine_no].graph->g[G->machine_state_no[machine_no]][i][0] == '-' && n[machine_no].graph->g[G->machine_state_no[machine_no]][i].length() > 1){
             msg = n[machine_no].graph->g[G->machine_state_no[machine_no]][i];
+            n[machine_no].graph->g[G->machine_state_no[machine_no]][i] = "-";
             //cout<<n[machine_no].graph->g[G->machine_state_no[machine_no]][i];
             G->message_queue[machine_no] = msg;
             machine_with_generating_msg = 1;
@@ -242,10 +243,9 @@ int main()
             GStack.pop();
 
         }
-        GStack.pop();
+        //GStack.pop();
 
     }
-
 
 
 
