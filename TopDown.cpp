@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 #include "DataStructure.h"
 using namespace std;
-int t;
+int t;//no of machines 
 
 Topo * create_Topologica_graph(Node *n){
     Topo *topo;
@@ -238,6 +238,7 @@ int main()
         }else{
             if(temp1->is_next_state_present == 0){
                 cout<<"Deadlock State is found!"<<endl;
+                break;
 
             }
             GStack.pop();
