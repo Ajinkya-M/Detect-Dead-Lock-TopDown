@@ -237,7 +237,7 @@ int main()
 
         }else{
             if(temp1->is_next_state_present == 0){
-                cout<<"Deadlock State is found!"<<endl;
+                cout<<"Deadlock State is found!....breaking out of the loop"<<endl;
                 break;
 
             }
