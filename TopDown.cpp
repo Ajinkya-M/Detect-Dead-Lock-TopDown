@@ -139,7 +139,8 @@ GlobalState * Explore_State(GlobalState *G, Node *n, Topo *topo){//explore globa
     int no_states_in_machine_to_explore = n[machine_no].no_of_states;
     for(int i=0;i<no_states_in_machine_to_explore;i++){
 
-        if(n[machine_no].graph->g[G->machine_state_no[machine_no]][i][0] == '-' && n[machine_no].graph->g[G->machine_state_no[machine_no]][i].length() > 1)
+        if(n[machine_no].graph->g[G->machine_state_no[machine_no]][i][0] == '-' && n[machine_no].graph->g[G->machine_state_no[machine_no]][i].length() > 1){
+            msg = n[machine_no].graph->g[G->machine_state_no[machine_no]][i];
             n[machine_no].graph->g[G->machine_state_no[machine_no]][i] = "-";
             //cout<<n[machine_no].graph->g[G->machine_state_no[machine_no]][i];
             G->message_queue[machine_no] = msg;
@@ -220,30 +221,29 @@ int main()
     stack<GlobalState *> GStack;//stack of global states.
     GStack.push(G);
 
-    //map<GlobalState, bool> GMap;
-    //GMap[*G] = true;
+    
     while(!GStack.empty()){
 
         GlobalState *temp1 = GStack.top();
         GlobalState *temp = Explore_State(temp1,n,topo);
         if(temp){
-            //if(GMap.find(*temp) == GMap.end()){
+           
                 GStack.push(temp);
-                //GMap[*temp] = true;
+              
                 continue;
 
-            //}
+           
 
         }else{
             if(temp1->is_next_state_present == 0){
-                cout<<"Deadlock State is found!....breaking out of the loop"<<endl;
+                cout<<"Deadlock State is found!"<<endl;
                 break;
 
             }
             GStack.pop();
 
         }
-        //GStack.pop();
+       
 
     }
 
@@ -251,54 +251,4 @@ int main()
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
