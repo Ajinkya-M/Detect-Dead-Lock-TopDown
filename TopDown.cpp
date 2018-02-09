@@ -139,8 +139,7 @@ GlobalState * Explore_State(GlobalState *G, Node *n, Topo *topo){//explore globa
     int no_states_in_machine_to_explore = n[machine_no].no_of_states;
     for(int i=0;i<no_states_in_machine_to_explore;i++){
 
-        if(n[machine_no].graph->g[G->machine_state_no[machine_no]][i][0] == '-' && n[machine_no].graph->g[G->machine_state_no[machine_no]][i].length() > 1){
-            msg = n[machine_no].graph->g[G->machine_state_no[machine_no]][i];
+        if(n[machine_no].graph->g[G->machine_state_no[machine_no]][i][0] == '-' && n[machine_no].graph->g[G->machine_state_no[machine_no]][i].length() > 1)
             n[machine_no].graph->g[G->machine_state_no[machine_no]][i] = "-";
             //cout<<n[machine_no].graph->g[G->machine_state_no[machine_no]][i];
             G->message_queue[machine_no] = msg;
