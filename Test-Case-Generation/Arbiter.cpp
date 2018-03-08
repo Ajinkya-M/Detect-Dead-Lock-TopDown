@@ -32,16 +32,20 @@ node* getNode(string name, string message){
 *********************************************************************************************
 */
 void AdjacencyListTo_GraphGenerator(map<string,vector<node *> > mp, vector<string> &insertOrder){
+    
+    
+    cout<<endl;
+    cout<<insertOrder.size()<<"  // No. of nodes in machine"<<endl;
     for(int i=0;i<insertOrder.size();i++){
         cout<<insertOrder[i]<<" ";
     }
     cout<<endl;
-    vector< vector <int> > G;
-    vector<int> r;
+    vector< vector <string> > G;
+    vector<string> r;
     for(int i=0;i<insertOrder.size();i++){
         r.clear();
         for(int j=0;j<insertOrder.size();j++){
-            r.push_back(0);
+            r.push_back("-");
         }
         G.push_back(r);
     }
@@ -51,16 +55,16 @@ void AdjacencyListTo_GraphGenerator(map<string,vector<node *> > mp, vector<strin
         for(int j=0;j<mp[insertOrder[i]].size();j++){
             for(int k=0;k<insertOrder.size();k++){
                 if(mp[insertOrder[i]][j]->node_name == insertOrder[k]){
-                    G[i][k] = 1;
+                    G[i][k] = mp[insertOrder[i]][j]->message;
                 }
             }
         }
     }
 
-
+    
     for(int i=0;i<insertOrder.size();i++){
         for(int j=0;j<insertOrder.size();j++){
-            cout<<G[i][j]<<"  ";
+            cout<<G[i][j]<<"    ";
         }
         cout<<endl;
     }
@@ -233,6 +237,20 @@ void ArbiterBuilder(int no, string first, string second, string local, string po
     AdjacencyListTo_GraphGenerator(mp,insertOrder);
 }
 
+//priority machine builder:
+void PriorityBuilder(int no, string port){
+    map<string, vector<node *> > mp;
+    vector<string> insertOrder;
+    for(int i=0;i<no-1;i++){
+        insertOrder.push_back(to_string(i));
+        mp[to_string(i)].push_back(getNode(to_string(i)+to_string(i), "-"+to_string((i+1)%(no-1))+"L"+port));
+        insertOrder.push_back(to_string(i)+to_string(i));
+        mp[(to_string(i)+to_string(i))].push_back(getNode(to_string((i+1)%(no-1)),"+"+to_string((i+1)%(no-1))+to_string((i+1)%(no-1))+"L"+port));
+    }
+    AdjacencyListTo_GraphGenerator(mp,insertOrder);
+}
+
+
 //Arbiter builder utility which calls arbiterbuilder with custom parameters:
 void ArbiterBuilderUtility(int no, string wires){
     string temp = wires;
@@ -252,17 +270,22 @@ void ArbiterBuilderUtility(int no, string wires){
         if(no == 3){
             ArbiterBuilder(no,params[0],params[1],params[2],to_string(i));
         }
-        if(no == 4){
+        else if(no == 4){
             ArbiterBuilder(no,params[0],params[1],params[2],params[3],to_string(i));
         }
-        if(no == 5){
+        else if(no == 5){
             ArbiterBuilder(no,params[0],params[1],params[2],params[3],params[4],to_string(i));
         }
+        PriorityBuilder(no,to_string(i));//priority machine builder called;
         temp = wires;
         params.clear();
 
     }
 }
+
+
+
+
 
 
 int main(){
