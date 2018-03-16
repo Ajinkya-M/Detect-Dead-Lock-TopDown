@@ -47,6 +47,53 @@ Topo * create_Topologica_graph(Node *n){
     return topo;
 
 }
+Node *read_Test_input(){
+    freopen("test3_3.txt","r",stdin);
+    string line;
+    string tok;
+    int state_ind = 0;
+    vector<string> r;
+    getline(cin,line);
+    t = stoi(line);// no of graphs
+    //cout<<t<<endl;
+    Node *n = (Node *) malloc(t * sizeof(Node));
+    for(int i=0;i<t;i++){
+        getline(cin,line);
+        n[i].no_of_states = stoi(line);// no of graphs
+        //cout<<n[i].no_of_states<<endl;
+        n[i].graph = (Graph *)malloc(sizeof(Graph));
+        n[i].graph->no_of_states = n[i].no_of_states;
+        cout<<n[i].graph->no_of_states<<endl;
+        //read machines as graph
+        
+        
+        getline(cin,line);
+        cout<<"line is "<<line<<endl;
+        
+        state_ind = 0;
+        stringstream ss(line);
+        while(ss>>tok){
+            cout<<tok<<" ";
+            n[i].graph->state_name[state_ind++] = tok;
+        }
+        cout<<endl;
+        for(int m=0;m<n[i].no_of_states;m++){
+            r.clear();
+            getline(cin,line);
+            stringstream ss(line);
+            while(ss>>tok){
+                r.push_back(tok);
+            }
+            n[i].graph->g.push_back(r);
+        }   
+
+        
+
+    }
+    return n;
+}
+
+
 
 Node * read_Input_Machines(){// read input machines here.
     freopen("input_32mc.txt","r",stdin);
@@ -199,12 +246,12 @@ GlobalState * Explore_State(GlobalState *G, Node *n, Topo *topo){//explore globa
     else return NULL;
 
 }
-
+static int cnt = 0;
 int main()
 {
 
-    Node *n = read_Input_Machines();
-
+    //Node *n = read_Input_Machines();
+    Node *n = read_Test_input();
     Topo *topo = create_Topologica_graph(n);//topo logiocal graph generattion
     //print topo graph:
     cout<<"Topological graph is :"<<endl;
@@ -219,7 +266,9 @@ int main()
     init_globalstate(G,n);//initialization of global state.
     print_GlobalState(G);
     stack<GlobalState *> GStack;//stack of global states.
+    //map<GlobalState, bool> mp;
     GStack.push(G);
+    //mp[*G] = true;
 
     
     while(!GStack.empty()){
@@ -227,8 +276,11 @@ int main()
         GlobalState *temp1 = GStack.top();
         GlobalState *temp = Explore_State(temp1,n,topo);
         if(temp){
-           
-                GStack.push(temp);
+                //if(mp.find(*temp) == mp.end()){
+                    GStack.push(temp);
+                   // mp[*temp] = true;
+                //}
+                
               
                 continue;
 
@@ -236,11 +288,18 @@ int main()
 
         }else{
             if(temp1->is_next_state_present == 0){
-                cout<<"Deadlock State is found!"<<endl;
-                break;
+                cnt++;
+                if(cnt == 2){
+                    cout<<"Deadlock State is found!...breaks from system!.."<<endl;
+                    break;
+                }else{
+                    continue;
+                }
+               
 
             }
             GStack.pop();
+            //mp.erase(mp.find(*temp1));
 
         }
        
@@ -251,4 +310,54 @@ int main()
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
