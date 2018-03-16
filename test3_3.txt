@@ -1,0 +1,626 @@
+66
+7
+E E E0 E1 E E0 E1 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - 
+4
+0 00 1 11 
+- -1L0 - - 
+- - +11L0 - 
+- - - -0L0 
++00L0 - - - 
+7
+S S S0 S1 S S0 S1 
++SSS1 +SSS1 +3L1 - +SSS1 +3L1 - 
++SSS1 +SSS1 +3L1 - +SSS1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retSS1 -retSS1 - - -retSS1 - - 
++SSS1 +SSS1 +3L1 - +SSS1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retSS1 -retSS1 - - -retSS1 - - 
+4
+0 00 1 11 
+- -1L1 - - 
+- - +11L1 - 
+- - - -0L1 
++00L1 - - - 
+7
+L L L0 L1 L L0 L1 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
+4
+0 00 1 11 
+- -1L2 - - 
+- - +11L2 - 
+- - - -0L2 
++00L2 - - - 
+10
+E E E0 E1 E E0 E1 E E0 E1 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
+6
+0 00 1 11 2 22 
+- -1L0 - - - - 
+- - +11L0 - - - 
+- - - -2L0 - - 
+- - - - +22L0 - 
+- - - - - -0L0 
++00L0 - - - - - 
+10
+W W W0 W1 W W0 W1 W W0 W1 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - 
+6
+0 00 1 11 2 22 
+- -1L1 - - - - 
+- - +11L1 - - - 
+- - - -2L1 - - 
+- - - - +22L1 - 
+- - - - - -0L1 
++00L1 - - - - - 
+10
+S S S0 S1 S S0 S1 S S0 S1 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
+6
+0 00 1 11 2 22 
+- -1L2 - - - - 
+- - +11L2 - - - 
+- - - -2L2 - - 
+- - - - +22L2 - 
+- - - - - -0L2 
++00L2 - - - - - 
+10
+L L L0 L1 L L0 L1 L L0 L1 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
+6
+0 00 1 11 2 22 
+- -1L3 - - - - 
+- - +11L3 - - - 
+- - - -2L3 - - 
+- - - - +22L3 - 
+- - - - - -0L3 
++00L3 - - - - - 
+7
+W W W0 W1 W W0 W1 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - 
+4
+0 00 1 11 
+- -1L0 - - 
+- - +11L0 - 
+- - - -0L0 
++00L0 - - - 
+7
+S S S0 S1 S S0 S1 
++SSS1 +SSS1 +3L1 - +SSS1 +3L1 - 
++SSS1 +SSS1 +3L1 - +SSS1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retSS1 -retSS1 - - -retSS1 - - 
++SSS1 +SSS1 +3L1 - +SSS1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retSS1 -retSS1 - - -retSS1 - - 
+4
+0 00 1 11 
+- -1L1 - - 
+- - +11L1 - 
+- - - -0L1 
++00L1 - - - 
+7
+L L L0 L1 L L0 L1 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
+4
+0 00 1 11 
+- -1L2 - - 
+- - +11L2 - 
+- - - -0L2 
++00L2 - - - 
+10
+E E E0 E1 E E0 E1 E E0 E1 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
+6
+0 00 1 11 2 22 
+- -1L0 - - - - 
+- - +11L0 - - - 
+- - - -2L0 - - 
+- - - - +22L0 - 
+- - - - - -0L0 
++00L0 - - - - - 
+10
+N N N0 N1 N N0 N1 N N0 N1 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - -retNN1 - - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - -retNN1 - - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - -retNN1 - - 
+6
+0 00 1 11 2 22 
+- -1L1 - - - - 
+- - +11L1 - - - 
+- - - -2L1 - - 
+- - - - +22L1 - 
+- - - - - -0L1 
++00L1 - - - - - 
+10
+S S S0 S1 S S0 S1 S S0 S1 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
+6
+0 00 1 11 2 22 
+- -1L2 - - - - 
+- - +11L2 - - - 
+- - - -2L2 - - 
+- - - - +22L2 - 
+- - - - - -0L2 
++00L2 - - - - - 
+10
+L L L0 L1 L L0 L1 L L0 L1 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
+6
+0 00 1 11 2 22 
+- -1L3 - - - - 
+- - +11L3 - - - 
+- - - -2L3 - - 
+- - - - +22L3 - 
+- - - - - -0L3 
++00L3 - - - - - 
+13
+E E E0 E1 E E0 E1 E E0 E1 E E0 E1 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - -retEE0 - - 
+8
+0 00 1 11 2 22 3 33 
+- -1L0 - - - - - - 
+- - +11L0 - - - - - 
+- - - -2L0 - - - - 
+- - - - +22L0 - - - 
+- - - - - -3L0 - - 
+- - - - - - +33L0 - 
+- - - - - - - -0L0 
++00L0 - - - - - - - 
+13
+W W W0 W1 W W0 W1 W W0 W1 W W0 W1 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - -retWW1 - - 
+8
+0 00 1 11 2 22 3 33 
+- -1L1 - - - - - - 
+- - +11L1 - - - - - 
+- - - -2L1 - - - - 
+- - - - +22L1 - - - 
+- - - - - -3L1 - - 
+- - - - - - +33L1 - 
+- - - - - - - -0L1 
++00L1 - - - - - - - 
+13
+N N N0 N1 N N0 N1 N N0 N1 N N0 N1 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - -retNN2 - - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - -retNN2 - - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - -retNN2 - - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - -retNN2 - - 
+8
+0 00 1 11 2 22 3 33 
+- -1L2 - - - - - - 
+- - +11L2 - - - - - 
+- - - -2L2 - - - - 
+- - - - +22L2 - - - 
+- - - - - -3L2 - - 
+- - - - - - +33L2 - 
+- - - - - - - -0L2 
++00L2 - - - - - - - 
+13
+S S S0 S1 S S0 S1 S S0 S1 S S0 S1 
++SSS3 +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - 
++SSS3 +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 - - -33L3 
+-retSS3 -retSS3 - - -retSS3 - - -retSS3 - - -retSS3 - - 
++SSS3 +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 - - -33L3 
+-retSS3 -retSS3 - - -retSS3 - - -retSS3 - - -retSS3 - - 
++SSS3 +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 - - -33L3 
+-retSS3 -retSS3 - - -retSS3 - - -retSS3 - - -retSS3 - - 
++SSS3 +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - +SSS3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 - - -33L3 
+-retSS3 -retSS3 - - -retSS3 - - -retSS3 - - -retSS3 - - 
+8
+0 00 1 11 2 22 3 33 
+- -1L3 - - - - - - 
+- - +11L3 - - - - - 
+- - - -2L3 - - - - 
+- - - - +22L3 - - - 
+- - - - - -3L3 - - 
+- - - - - - +33L3 - 
+- - - - - - - -0L3 
++00L3 - - - - - - - 
+13
+L L L0 L1 L L0 L1 L L0 L1 L L0 L1 
++SLL4 +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - 
++SLL4 +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - 
+- - - -33L4 - - -33L4 - - -33L4 - - -33L4 
+-retLL4 -retLL4 - - -retLL4 - - -retLL4 - - -retLL4 - - 
++SLL4 +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - 
+- - - -33L4 - - -33L4 - - -33L4 - - -33L4 
+-retLL4 -retLL4 - - -retLL4 - - -retLL4 - - -retLL4 - - 
++SLL4 +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - 
+- - - -33L4 - - -33L4 - - -33L4 - - -33L4 
+-retLL4 -retLL4 - - -retLL4 - - -retLL4 - - -retLL4 - - 
++SLL4 +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - +SLL4 +3L4 - 
+- - - -33L4 - - -33L4 - - -33L4 - - -33L4 
+-retLL4 -retLL4 - - -retLL4 - - -retLL4 - - -retLL4 - - 
+8
+0 00 1 11 2 22 3 33 
+- -1L4 - - - - - - 
+- - +11L4 - - - - - 
+- - - -2L4 - - - - 
+- - - - +22L4 - - - 
+- - - - - -3L4 - - 
+- - - - - - +33L4 - 
+- - - - - - - -0L4 
++00L4 - - - - - - - 
+10
+W W W0 W1 W W0 W1 W W0 W1 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - +SWW0 +3L0 - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - -retWW0 - - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - -retWW0 - - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - -retWW0 - - 
+6
+0 00 1 11 2 22 
+- -1L0 - - - - 
+- - +11L0 - - - 
+- - - -2L0 - - 
+- - - - +22L0 - 
+- - - - - -0L0 
++00L0 - - - - - 
+10
+N N N0 N1 N N0 N1 N N0 N1 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - -retNN1 - - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - -retNN1 - - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - -retNN1 - - 
+6
+0 00 1 11 2 22 
+- -1L1 - - - - 
+- - +11L1 - - - 
+- - - -2L1 - - 
+- - - - +22L1 - 
+- - - - - -0L1 
++00L1 - - - - - 
+10
+S S S0 S1 S S0 S1 S S0 S1 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
++SSS2 +SSS2 +3L2 - +SSS2 +3L2 - +SSS2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retSS2 -retSS2 - - -retSS2 - - -retSS2 - - 
+6
+0 00 1 11 2 22 
+- -1L2 - - - - 
+- - +11L2 - - - 
+- - - -2L2 - - 
+- - - - +22L2 - 
+- - - - - -0L2 
++00L2 - - - - - 
+10
+L L L0 L1 L L0 L1 L L0 L1 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
+6
+0 00 1 11 2 22 
+- -1L3 - - - - 
+- - +11L3 - - - 
+- - - -2L3 - - 
+- - - - +22L3 - 
+- - - - - -0L3 
++00L3 - - - - - 
+7
+E E E0 E1 E E0 E1 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - 
+4
+0 00 1 11 
+- -1L0 - - 
+- - +11L0 - 
+- - - -0L0 
++00L0 - - - 
+7
+N N N0 N1 N N0 N1 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - 
+4
+0 00 1 11 
+- -1L1 - - 
+- - +11L1 - 
+- - - -0L1 
++00L1 - - - 
+7
+L L L0 L1 L L0 L1 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
+4
+0 00 1 11 
+- -1L2 - - 
+- - +11L2 - 
+- - - -0L2 
++00L2 - - - 
+10
+E E E0 E1 E E0 E1 E E0 E1 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
++SEE0 +SEE0 +3L0 - +SEE0 +3L0 - +SEE0 +3L0 - 
+- - - -33L0 - - -33L0 - - -33L0 
+-retEE0 -retEE0 - - -retEE0 - - -retEE0 - - 
+6
+0 00 1 11 2 22 
+- -1L0 - - - - 
+- - +11L0 - - - 
+- - - -2L0 - - 
+- - - - +22L0 - 
+- - - - - -0L0 
++00L0 - - - - - 
+10
+W W W0 W1 W W0 W1 W W0 W1 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - 
++SWW1 +SWW1 +3L1 - +SWW1 +3L1 - +SWW1 +3L1 - 
+- - - -33L1 - - -33L1 - - -33L1 
+-retWW1 -retWW1 - - -retWW1 - - -retWW1 - - 
+6
+0 00 1 11 2 22 
+- -1L1 - - - - 
+- - +11L1 - - - 
+- - - -2L1 - - 
+- - - - +22L1 - 
+- - - - - -0L1 
++00L1 - - - - - 
+10
+N N N0 N1 N N0 N1 N N0 N1 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - 
++SNN2 +SNN2 +3L2 - +SNN2 +3L2 - +SNN2 +3L2 - 
+- - - -33L2 - - -33L2 - - -33L2 
+-retNN2 -retNN2 - - -retNN2 - - -retNN2 - - 
+6
+0 00 1 11 2 22 
+- -1L2 - - - - 
+- - +11L2 - - - 
+- - - -2L2 - - 
+- - - - +22L2 - 
+- - - - - -0L2 
++00L2 - - - - - 
+10
+L L L0 L1 L L0 L1 L L0 L1 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
++SLL3 +SLL3 +3L3 - +SLL3 +3L3 - +SLL3 +3L3 - 
+- - - -33L3 - - -33L3 - - -33L3 
+-retLL3 -retLL3 - - -retLL3 - - -retLL3 - - 
+6
+0 00 1 11 2 22 
+- -1L3 - - - - 
+- - +11L3 - - - 
+- - - -2L3 - - 
+- - - - +22L3 - 
+- - - - - -0L3 
++00L3 - - - - - 
+7
+W W W0 W1 W W0 W1 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - 
++SWW0 +SWW0 +3L0 - +SWW0 +3L0 - 
+- - - -33L0 - - -33L0 
+-retWW0 -retWW0 - - -retWW0 - - 
+4
+0 00 1 11 
+- -1L0 - - 
+- - +11L0 - 
+- - - -0L0 
++00L0 - - - 
+7
+N N N0 N1 N N0 N1 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - 
++SNN1 +SNN1 +3L1 - +SNN1 +3L1 - 
+- - - -33L1 - - -33L1 
+-retNN1 -retNN1 - - -retNN1 - - 
+4
+0 00 1 11 
+- -1L1 - - 
+- - +11L1 - 
+- - - -0L1 
++00L1 - - - 
+7
+L L L0 L1 L L0 L1 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
++SLL2 +SLL2 +3L2 - +SLL2 +3L2 - 
+- - - -33L2 - - -33L2 
+-retLL2 -retLL2 - - -retLL2 - - 
+4
+0 00 1 11 
+- -1L2 - - 
+- - +11L2 - 
+- - - -0L2 
++00L2 - - - 
