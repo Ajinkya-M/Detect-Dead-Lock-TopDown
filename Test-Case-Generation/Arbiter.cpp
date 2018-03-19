@@ -6,6 +6,7 @@ typedef struct node{
     string message;
 }node;
 //string local = "L";
+static int no_of_machines = 0;
 
 //Dynamic node creation:
 node* getNode(string name, string message){
@@ -34,8 +35,9 @@ node* getNode(string name, string message){
 void AdjacencyListTo_GraphGenerator(map<string,vector<node *> > mp, vector<string> &insertOrder){
     
     
-    cout<<endl;
-    cout<<insertOrder.size()<<"  // No. of nodes in machine"<<endl;
+    
+    ++no_of_machines;
+    cout<<insertOrder.size()<<endl;//No. of nodes in machine.
     for(int i=0;i<insertOrder.size();i++){
         cout<<insertOrder[i]<<" ";
     }
@@ -64,7 +66,7 @@ void AdjacencyListTo_GraphGenerator(map<string,vector<node *> > mp, vector<strin
     
     for(int i=0;i<insertOrder.size();i++){
         for(int j=0;j<insertOrder.size();j++){
-            cout<<G[i][j]<<"    ";
+            cout<<G[i][j]<<" ";
         }
         cout<<endl;
     }
@@ -258,14 +260,18 @@ void ArbiterBuilderUtility(int no, string wires){
         string ch = temp.substr(i,1);
         temp.erase(temp.begin() + i);
         ch += temp;
-        cout<<ch<<endl;
         vector<string> params;
         stringstream ss;
         string charString;
+        char char_to_procs;
         for(int k=0;k<ch.length();k++){
-            ss << ch[k];
+            char_to_procs =  ch[k];
+            ss.str("");
+            ss.clear();
+            ss<<char_to_procs;
             ss>>charString;
             params.push_back(charString);
+            
         }
         if(no == 3){
             ArbiterBuilder(no,params[0],params[1],params[2],to_string(i));
@@ -291,6 +297,7 @@ void ArbiterBuilderUtility(int no, string wires){
 int main(){
     int m,n;
     cin>>m>>n;
+    //freopen("test3_3.txt", "w+", stdout);
     string wires = "";
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
@@ -315,7 +322,9 @@ int main(){
         }
         //cout<<endl;
     }
-
+    cout<<no_of_machines;
+    fclose(stdout);
+    
     
 
 }
